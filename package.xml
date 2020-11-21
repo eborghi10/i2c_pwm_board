@@ -9,8 +9,9 @@
 
   <author>Bradan Lane Studio</author>
   <maintainer email="locoro@bradanlane.com">bradanlane</maintainer>
+  <maintainer email="emiliano.borghi@gmail.com">Emiliano Borghi</maintainer>
   <license>GPLv3</license>
-  <url>https://gitlab.com/bradanlane/ros-i2cpwmboard</url>
+  <url>brandanlane.gitlab.io/ros-i2cpwmboard</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 
@@ -25,9 +26,4 @@
   <run_depend>std_srvs</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>rospy</run_depend>
-
-  <!-- The export tag contains other, unspecified, tags -->
-  <export>
-    <!-- Other tools can request additional information be placed here -->
-  </export>
 </package>

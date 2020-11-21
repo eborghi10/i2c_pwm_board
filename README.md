@@ -1,10 +1,6 @@
-ros-i2cpwmboard is the project for the i2cpwm_board controller node.
+# i2c_pwm_board
 
-The user documentation is available at: http://bradanlane.gitlab.io/ros-i2cpwmboard/
+`i2c_pwm_board` is the controller for the Adafruit 16 channel PWM servo I2C board, hat, and similar PCA9685 based boards.
+It provides absolute proportional PWM control as well as supports `geometry_msgs/Twist`.
 
-Integrated demo video: https://vimeo.com/193201509
-LoCoRo Robot demo video: https://vimeo.com/189997166
-
-Status: parameter initialization added.
-
-The LoCoRo (low cost robot) project configuration and launch files have been moved to a separate poroject: https://gitlab.com/bradanlane/locoro
+The original user documentation is available at: [http://bradanlane.gitlab.io/ros-i2cpwmboard/]
